@@ -165,6 +165,10 @@ body {
   font-weight: 500;
 }
 
+.post .topo .usuario img{
+  border-radius: 50%;
+}
+
 .post .topo .usuario, .post .topo .acoes {
   display: flex;
   align-items: center;
@@ -201,6 +205,9 @@ body {
   padding: 0 16px 13px;
   font-weight: 300;
 }
+.post .fundo .curtidas img {
+  border-radius: 50%;
+}
 
 .post .fundo .curtidas img {
   width: 20px;
@@ -218,12 +225,17 @@ body {
   top: 88px;
 }
 
-.sidebar > .usuario {
+.sidebar .usuario {
   display: flex;
   align-items: center;
 }
 
-.sidebar > .usuario img {
+.sidebar .usuario img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+.sidebar .usuario img{
   width: 56px;
   height: 56px;
   border-radius: 50%;
@@ -236,6 +248,13 @@ body {
   font-weight: 300;
   color: #8E8E8E;
 }
+.sidebar  .usuario .texto .nome {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+
+}
+
 
 .sidebar > .usuario .texto strong {
   font-weight: 500;
@@ -277,6 +296,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.sidebar .sugestoes .sugestao .usuario img{
+  border-radius: 50%;
+ 
 }
 
 .sidebar .sugestoes .sugestao .usuario .texto :last-child {

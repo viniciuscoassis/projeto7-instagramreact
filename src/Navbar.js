@@ -1,4 +1,4 @@
-export defaut function Navbar(){
+export default function Navbar(){
     return (
         <div>
         <div class="navbar">
