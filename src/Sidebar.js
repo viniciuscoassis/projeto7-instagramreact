@@ -62,8 +62,6 @@ export default function Sidebar(){
           
         {personagens.map(lista => <Sugestao img={lista.img} razao= {lista.reason} nome= {lista.name}/> ) }
 
-
-    
             </div>
 
 
