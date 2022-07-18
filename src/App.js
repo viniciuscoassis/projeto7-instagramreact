@@ -3,6 +3,7 @@ import Stories from "./Stories";
 import Posts from "./Posts";
 import Sidebar from "./Sidebar";
 
+
 export default function App(){
 return(
     <div>
@@ -26,6 +27,8 @@ return(
         <ion-icon name="heart-outline"></ion-icon>
         <ion-icon name="person-outline"></ion-icon>
       </div>
+      
+
     </div>
 
     </div>

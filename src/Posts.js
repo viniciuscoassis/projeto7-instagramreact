@@ -1,8 +1,15 @@
+import React from "react";
+
 
 function Post(props){
+
+  const [likeColor, setLike] = React.useState("heart-outline");
+
     return (
 
 <div>
+
+
 
 <div class="post">
               <div class="topo">
@@ -22,7 +29,17 @@ function Post(props){
               <div class="fundo">
                 <div class="acoes">
                   <div>
-                    <ion-icon name="heart-outline"></ion-icon>
+                    <ion-icon 
+                    name={likeColor} 
+                    onClick={
+                      ()=>{ 
+                      if(likeColor == "heart-outline"){
+                        setLike("heart")}
+                      else setLike("heart-outline")}}>
+                    
+                    
+                    </ion-icon>
+
                     <ion-icon name="chatbubble-outline"></ion-icon>
                     <ion-icon name="paper-plane-outline"></ion-icon>
                   </div>

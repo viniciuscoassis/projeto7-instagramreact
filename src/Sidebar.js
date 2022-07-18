@@ -1,6 +1,6 @@
 function Sugestao(props){
     return (
-        <div>
+   
 
 <div class="sugestao">
               <div class="usuario">
@@ -12,11 +12,11 @@ function Sugestao(props){
               </div>
 
               <div class="seguir">Seguir</div>
-            </div>
+</div>
 
-        </div>
     )
 }
+
 function Usuario(props){
   return(
 
